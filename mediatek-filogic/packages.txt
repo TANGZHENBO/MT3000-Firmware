@@ -1,0 +1,45 @@
+# GL-MT3000 / ImmortalWrt 25.12.2
+# Official ImageBuilder package names for mediatek/filogic (aarch64_cortex-a53).
+# Keep this list lean to reduce image size and avoid competing proxy stacks.
+
+# LuCI base + Simplified Chinese
+luci
+luci-ssl
+luci-i18n-base-zh-cn
+luci-app-firewall
+luci-app-package-manager
+luci-mod-dashboard
+
+# GL.iNet-like interface: Argon default; other themes selectable in LuCI
+luci-theme-argon
+luci-app-argon-config
+luci-theme-bootstrap
+luci-theme-material
+luci-theme-openwrt-2020
+luci-theme-openwrt
+
+# Proxy: sing-box core + HomeProxy LuCI interface (Chinese translation)
+sing-box
+luci-app-homeproxy
+luci-i18n-homeproxy-zh-cn
+
+# DNS ad blocking: lightweight Adblock Fast LuCI interface
+luci-app-adblock-fast
+
+# Network tools
+luci-app-smartdns
+luci-app-ddns
+luci-app-sqm
+luci-app-upnp
+luci-app-nlbwmon
+luci-app-wol
+
+# VPN
+wireguard-tools
+kmod-wireguard
+luci-proto-wireguard
+openvpn-openssl
+luci-app-openvpn
+
+# Admin utilities
+luci-app-ttyd
